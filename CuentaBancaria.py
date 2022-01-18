@@ -16,11 +16,7 @@ class CuentaBancaria:
         else:
             self.balance -= amount 
             print("Retiro realizado correctamente.")
-        return self
-
-    def mostrar_info_cuenta(self):
-        print("Balance:",self.balance, "- Tasa de interés:", self.tasa_interes)
-        return self
+        return self  
 
     def generar_interés(self):
         if CuentaBancaria.balancePositivo(self.balance):
