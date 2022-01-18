@@ -1,5 +1,5 @@
 #La opcion de elegir cuentas solo se puede aplicar para retiros y depositos, más no para tranferencias, ya que el ejercicio 
-#se volvería más complejo y tomaría más de lo requerido
+#se volvería un poco más complejo y tomaría más de lo requerido
 
 from Usuario import Usuario
 
